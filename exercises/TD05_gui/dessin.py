@@ -16,7 +16,7 @@ def cercle():
 def carre():
     x = rd.randint(0,501)
     y  = rd.randint(0,501)
-    canvas.create_rectangle((x,y), (x+100,y+100), fill=ma_couleur)
+    canvas.create_rectangle((x,y), (x+100,y+100), fill= ma_couleur)
 
 def croix():
     x = rd.randint(0, 501)
@@ -43,3 +43,4 @@ bouton_croix.grid (row= 3, column=0)
 
 canvas.grid(row = 1, column = 1, rowspan= 3)
 racine.mainloop()
+
